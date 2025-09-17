@@ -1,0 +1,37 @@
+.box1{
+    height: 200vh;
+    width: 500px;
+    background-color: aquamarine;
+    position: relative;
+    top: 20px;
+}
+
+.box2{
+    height: 300px;
+    width: 300px;
+    background-color: cornflowerblue;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+}
+
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color: darksalmon;
+    position:fixed;
+    bottom: 0;
+    right: 20px;
+}
+
+.box4{
+    height: 200px;
+    width: 200px;
+    background-color: indianred;
+    position: sticky;
+    top: 10px;
+}
+
+/*
+positions: static, relative, absolute, fixed, stickly
+*/
