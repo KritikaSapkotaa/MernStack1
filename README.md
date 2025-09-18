@@ -103,3 +103,5 @@ Syntax:
    overflow
    table
    form
+   position 
+   background image
