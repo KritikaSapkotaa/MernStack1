@@ -105,3 +105,6 @@ Syntax:
    form
    position 
    background image
+   gridbox
+   icon
+   responsive design
