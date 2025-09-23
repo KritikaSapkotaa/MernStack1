@@ -1,4 +1,4 @@
-##HTML(Hypertext Markup Language)
+## HTML(Hypertext Markup Language)
 
 1. HTML Structure
   <html></html>
@@ -60,7 +60,7 @@
 
 9. Semantic elements
 
-##CSS(Cascading Stylesheet)
+## CSS(Cascading Stylesheet)
 
 Syntax:
 
@@ -110,3 +110,11 @@ Syntax:
    responsive design
    transform
    animation
+
+
+
+## Tailwind CSS
+
+   CSS Framework
+   Collection of css classes
+   
