@@ -66,7 +66,7 @@ const userData = {
 
 console.log(userData);
 
-const list1 = [847, 75, 25, 758, 0938];
+const list1 = [847, 75, 25, 758, 38];
 const list2 = [948498, 874, 2638, 179, 475];
 
 console.log([...list1, ...list2]);
