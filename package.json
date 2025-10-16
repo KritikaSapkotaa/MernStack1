@@ -16,7 +16,7 @@
   },
   "license": "ISC",
   "author": "Kritika Sapkota",
-  "type": "commonjs",
+  "type": "module",
   "main": "server.js",
     "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
