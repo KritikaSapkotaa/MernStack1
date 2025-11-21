@@ -22,7 +22,7 @@ fs.readFile("users.json", "utf8", (error, users) => {
 
     const userList = JSON.parse(users);
 
-    fs.readFileSync("posts.json", "utf8", (postError, posts) => {
+    fs.readFile("posts.json", "utf8", (postError, posts) => {
         if (postError) return console.log(postError);
 
         const postsList = JSON.parse(posts);
