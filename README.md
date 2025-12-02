@@ -50,3 +50,37 @@
     - 500: Internal server error
     - 502: Bad gateway
     - 504: Timeout        
+
+## Semantic coding
+
+1. Files and folder structure
+2. Files and folder naming
+3. Function and variable naming
+
+## API folder structure
+
+root/
+- package.json
+- .env
+- .env.example
+- .gitignore
+- node_modules/
+- src
+   - server.js
+   - app.js
+   - constants/
+      - roles.js
+   - controllers/
+      - userControllers.js
+   - helpers/
+      - dataFormatter.js
+   - lib/
+      - userType.js
+   - models/
+      - User.js
+   - routes/
+      - userRoutes.js
+   - services/
+      - userServices.js
+   - utils/
+      - jwtAuth.js
