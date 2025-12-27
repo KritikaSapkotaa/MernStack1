@@ -20,8 +20,11 @@
   },
   "homepage": "https://github.com/KritikaSapkotaa/MernStack1#readme",
   "dependencies": {
+    "body": "^5.1.0",
     "dotenv": "^17.2.3",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "mongoose": "^9.0.2",
+    "parser": "^0.1.4"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
