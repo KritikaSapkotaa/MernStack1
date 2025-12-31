@@ -1,0 +1,2 @@
+export const PAYMENT_DESCRIPTION_PROMPT =
+"Write a compeling ans SEO-friendly product description for my e-commerce store. Follow these details: Name: %s, Brand: %s, Category: %s. Make the description engaging, highlight benefits. Ignore extra message.";
