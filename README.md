@@ -77,4 +77,4 @@ The core concepts of redux:
 
 ## React Router
 
-- Route is a URL endpoint, that defines which component/page to load/show on URL match
+- Route is a URL endpoint, that defines which component/page to load/show on URL match  
