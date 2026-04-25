@@ -70,3 +70,37 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## Routing
 
 - File based routing
+- All routes must be inside '/src/app' directory
+- Every route must have 'page.js' or 'page.tsx' file
+- page.js/page.tsx file must have a default export component
+
+1. Simple routes
+
+- Create a folder inside /src/app and add page.js file
+- /src/app/about/page.js
+
+2. Nested routes
+
+-Create a nested folder for nested routes
+- /src/app/courses/web-design/page.js
+- src/app/courses/api/node-js/page.js
+
+3. Dynamic routes
+
+- create a folder enclosed by []
+- /src/app/products/[productId]/page.js
+
+4. Nested dynamic route
+
+- /src/app/products/[productId]/reviews/[reviewId]/page.js
+
+5. Catch all segments
+- /src/app/blogs/[...slug]/page.js
+
+6. route groups
+
+- /src/app/(auth)/...
+
+7. Private folders
+
+- /src/app/_components
